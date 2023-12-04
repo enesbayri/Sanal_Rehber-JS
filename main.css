@@ -1,0 +1,48 @@
+
+body{
+    background: rgb(117,114,156); 
+    background: linear-gradient(90deg, rgba(117,114,156,1) 0%, rgba(106,106,147,1) 21%, rgba(77,143,157,1) 95%);
+}
+.btn{
+    border: 0;
+    outline: none;
+    font-size: 2rem;
+}
+
+.btn--edit{
+    color: orange;
+}
+
+.btn--delete{
+    color: red;
+}
+.bilgi{
+    display: block;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bilgi--success{
+    background-color: #56ff56;
+}
+.bilgi--error{
+    background-color: #ff4747;
+}
+.bilgi--edit{
+    background-color: orange;
+}
+.gizle{
+    display: none;
+}
+.kaybol{
+    display: none;
+    transform: scale(0);
+}
+
+.edit{
+    background-color: rgba(77,143,157,1);
+}
+

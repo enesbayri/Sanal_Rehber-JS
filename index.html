@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanal Rehber</title>
+    <link rel="stylesheet" href="./skeleton/normalize.css">
+    <link rel="stylesheet" href="./skeleton/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sanal Rehberiniz</h1>
+        <div class="bilgi bilgi--success gizle">Başarılı!</div>
+        <div class="bilgi bilgi--error bildirim gizle">Hatalı giriş!</div>
+
+        <form id="form-rehber" action="#">
+            <div>
+                <label for="ad">Adı</label>
+                <input type="text" id="ad" class="u-full-width form-ad">
+            </div>
+
+            <div>
+                <label for="soyad">Soyadı</label>
+                <input type="text" id="soyad" class="u-full-width form-soyad">
+            </div>
+
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" class="u-full-width form-mail">
+            </div>
+            <div>
+                <input class="button-primary u-full-width rehber-ekle" type="submit" value="kaydet">
+            </div>
+
+        </form>
+
+        <hr>
+
+        <table class="u-max-full-width" style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>Email</th>
+                    <th colspan="2">
+                        İslemler
+                    </th>
+                    
+                </tr>
+            </thead>
+            <tbody class="rehber-detay">
+                <!--
+                <tr>
+                    <td>Enes</td>
+                    <td>Bayri</td>
+                    <td>enesbayri1@gmail.com</td>
+                    <td>
+                        <button class="btn btn--edit">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn--delete">
+                            <i class="fa-solid fa-trash-alt"></i>
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Eylül</td>
+                    <td>Kemancı</td>
+                    <td>sengul3@outlook.com</td>
+                    <td>
+                        <button class="btn btn--edit">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn--delete">
+                            <i class="fa-solid fa-trash-alt"></i>
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Emre</td>
+                    <td>Bagmanci</td>
+                    <td>emre11@hotmail.com</td>
+                    <td>
+                        <button class="btn btn--edit">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn--delete">
+                            <i class="fa-solid fa-trash-alt"></i>
+                        </button>
+                    </td>
+                </tr>    
+
+
+                -->
+                
+
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
